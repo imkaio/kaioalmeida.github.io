@@ -1,0 +1,28 @@
+.fecharFaixa {
+  -webkit-animation: fecharFaixaA 1s cubic-bezier(.74, .06, .4, .92) forwards;
+  -o-animation: fecharFaixaA 1s cubic-bezier(.74, .06, .4, .92) forwards;
+  animation: fecharFaixaA 1s cubic-bezier(.74, .06, .4, .92) forwards;
+
+  @keyframes faixaFrete {
+    0% {
+      opacity: 0;
+      bottom: -25px;
+    }
+    100% {
+      opacity: 1;
+      bottom: 10px;
+    }
+  }
+  @keyframes fecharFaixaA {
+    0% {
+      opacity: 1;
+      bottom: 10px;
+    }
+    100% {
+      opacity: 0;
+      bottom: -20px;
+      display: none;
+    }
+  }
+
+}

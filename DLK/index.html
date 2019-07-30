@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="custom__mobile.css">
+    <link rel="stylesheet" href="animation.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/aa09fdd343.js"></script>
+</head>
+<body>
+
+<div class="container-fluid p-0">
+    <nav class="menu">
+        <div class="logo">
+            <img src="logo.png" alt="">
+        </div>
+
+        <ul>
+            <li>
+                <i class="far fa-heart"></i>
+            </li>
+
+            <li>
+                <i class="fas fa-user"></i>
+            </li>
+
+            <li>
+                <i class="fas fa-shopping-cart"></i>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="home__banner--principal">
+        <img src="banner_principal.png" alt="">
+    </div>
+</div>
+
+<div class="faixa__frete--gratis">
+    <div class="frete-gratis">
+        <p>FRETE GRÁTIS NAS COMPRAS ACIMA DE R$300,00</p>
+        <i class="fas fa-times"  onclick="fecharFaixaFrete()"></i>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div id="lancamento">
+        <div class="header__section--fluid">
+            <span class="tes">LANÇAMENTO</span>
+            <h1>REVERSE <br> COLLECTION</h1>
+        </div>
+
+        <div class="lancamento__vitrine">
+            <div class="row">
+                <div class="col-6 col-sm-6 col-md-3">
+                    <div class="lancamento__produto">
+                        <div class="produto__foto">
+                            <img src="produto.png" alt="">
+                        </div>
+                        <div class="produto__informacoes">
+                            <div class="produto__nome">
+                                <p>Cropped Branco Alças Finas Básico</p>
+                                <span>FT1433</span>
+                            </div>
+
+                            <div class="produto__preco">
+                                <div class="preço__avista">
+                                    <p>R$ 22,00</p> <span>(boleto)</span>
+                                </div>
+                                <div class="preço__parcelado">
+                                    <p>12x de R$ 2,49</p> <span>(Sem Juros)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-sm-6 col-md-3">
+                    <div class="lancamento__produto">
+                        <div class="produto__foto">
+                            <img src="produto.png" alt="">
+                        </div>
+                        <div class="produto__informacoes">
+                            <div class="produto__nome">
+                                <p>Cropped Branco Alças Finas Básico</p>
+                                <span>FT1433</span>
+                            </div>
+
+                            <div class="produto__preco">
+                                <div class="preço__avista">
+                                    <p>R$ 22,00</p> <span>(boleto)</span>
+                                </div>
+                                <div class="preço__parcelado">
+                                    <p>12x de R$ 2,49</p> <span>(Sem Juros)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-3">
+                    <div class="lancamento__produto">
+                        <div class="produto__foto">
+                            <img src="produto.png" alt="">
+                        </div>
+                        <div class="produto__informacoes">
+                            <div class="produto__nome">
+                                <p>Cropped Branco Alças Finas Básico</p>
+                                <span>FT1433</span>
+                            </div>
+
+                            <div class="produto__preco">
+                                <div class="preço__avista">
+                                    <p>R$ 22,00</p> <span>(boleto)</span>
+                                </div>
+                                <div class="preço__parcelado">
+                                    <p>12x de R$ 2,49</p> <span>(Sem Juros)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-3">
+                    <div class="lancamento__produto">
+                        <div class="produto__foto">
+                            <img src="produto.png" alt="">
+                        </div>
+                        <div class="produto__informacoes">
+                            <div class="produto__nome">
+                                <p>Cropped Branco Alças Finas Básico</p>
+                                <span>FT1433</span>
+                            </div>
+
+                            <div class="produto__preco">
+                                <div class="preço__avista">
+                                    <p>R$ 22,00</p> <span>(boleto)</span>
+                                </div>
+                                <div class="preço__parcelado">
+                                    <p>12x de R$ 2,49</p> <span>(Sem Juros)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container_fluid p-0">
+    <div class="banner1"></div>
+</div>
+
+<div class="container">
+    <div id="colecoes">
+        <div class="header__section">
+            <span class="tes">veja mais</span>
+            <h1>+ coleções</h1>
+        </div>
+
+        <div class="colecao__vitrine">
+            <div class="row">
+                <div class="col-12 col-sm-4 col-md-4">
+                    <div class="colecao__spot">
+                        <div class="imagem_colecao">
+                            <img src="colecao.png" alt="">
+                        </div>
+                        <div class="descricao_colecao">
+                            <div class="nome_colecao">
+                                <p>REVERSE</p>
+                                <span>veja a colecao</span>
+                            </div>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4 col-md-4">
+                    <div class="colecao__spot">
+                        <div class="imagem_colecao">
+                            <img src="colecao.png" alt="">
+                        </div>
+                        <div class="descricao_colecao">
+                            <div class="nome_colecao">
+                                <p>REVERSE</p>
+                                <span>veja a colecao</span>
+                            </div>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4 col-md-4">
+                    <div class="colecao__spot">
+                        <div class="imagem_colecao">
+                            <img src="colecao.png" alt="">
+                        </div>
+                        <div class="descricao_colecao">
+                            <div class="nome_colecao">
+                                <p>REVERSE</p>
+                                <span>veja a colecao</span>
+                            </div>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid bg__grey">
+    <div class="container">
+        <div id="categorias">
+            <div class="header__section">
+                <span class="tes">veja mais</span>
+                <h1>+ categorias</h1>
+            </div>
+
+            <div class="categorias__vitrine">
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <div class="categoria__spot">
+                            <div class="categoria__imagem">
+                                <img src="categoria.png" alt="">
+                            </div>
+                            <div class="categoria__descricao">
+                                <div class="nome_categoria">
+                                    <p>REVERSE</p>
+                                    <span>veja a colecao</span>
+                                </div>
+                                <i class="fas fa-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <div class="categoria__spot">
+                            <div class="categoria__imagem">
+                                <img src="categoria.png" alt="">
+                            </div>
+                            <div class="categoria__descricao">
+                                <div class="nome_categoria">
+                                    <p>REVERSE</p>
+                                    <span>veja a colecao</span>
+                                </div>
+                                <i class="fas fa-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <div class="categoria__spot">
+                            <div class="categoria__imagem">
+                                <img src="categoria.png" alt="">
+                            </div>
+                            <div class="categoria__descricao">
+                                <div class="nome_categoria">
+                                    <p>REVERSE</p>
+                                    <span>veja a colecao</span>
+                                </div>
+                                <i class="fas fa-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <div class="categoria__spot">
+                            <div class="categoria__imagem">
+                                <img src="categoria.png" alt="">
+                            </div>
+                            <div class="categoria__descricao">
+                                <div class="nome_categoria">
+                                    <p>REVERSE</p>
+                                    <span>veja a colecao</span>
+                                </div>
+                                <i class="fas fa-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <div class="categoria__spot">
+                            <div class="categoria__imagem">
+                                <img src="categoria.png" alt="">
+                            </div>
+                            <div class="categoria__descricao">
+                                <div class="nome_categoria">
+                                    <p>REVERSE</p>
+                                    <span>veja a colecao</span>
+                                </div>
+                                <i class="fas fa-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <div class="categoria__spot">
+                            <div class="categoria__imagem">
+                                <img src="categoria.png" alt="">
+                            </div>
+                            <div class="categoria__descricao">
+                                <div class="nome_categoria">
+                                    <p>REVERSE</p>
+                                    <span>veja a colecao</span>
+                                </div>
+                                <i class="fas fa-plus"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid p-0">
+    <div class="banner2"></div>
+</div>
+
+
+
+
+
+<script>
+    // Menu Stick
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 0) {
+            document.querySelector("nav.menu").style.height = "60px";
+            document.querySelector("nav.menu").style.background = "#000";
+        } else {
+            document.querySelector("nav.menu").style.height = "115px";
+            document.querySelector("nav.menu").style.background = "linear-gradient(#000 0%, rgba(0, 0, 0, 0) 100%)";
+        }
+    }
+
+    // Barra de Frete
+    function fecharFaixaFrete() {
+        const element = document.querySelector(".faixa__frete--gratis");
+        element.classList.add("fecharFaixa");
+    }
+</script>
+
+</body>
+</html>
